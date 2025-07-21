@@ -1,0 +1,22 @@
+.
+├── .github/workflows/ci.yml
+├── .gitignore
+├── Cargo.toml
+├── flake.nix
+├── justfile
+├── Cargo.lock
+├── crates
+│   ├── memory
+│   ├── runtime
+│   └── identity
+├── agents
+│   ├── loom
+│   └── scribe
+├── schemas
+│   ├── envelope.capnp
+│   └── agent_manifest.capnp
+├── apps
+│   └── desktop
+│       ├── src-tauri
+│       └── src
+└── docs

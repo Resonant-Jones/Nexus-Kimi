@@ -1,0 +1,9 @@
+# Rust
+/target
+Cargo.lock
+# Node / Tauri
+node_modules/
+dist/
+*.tsbuildinfo
+# Nix
+.direnv
